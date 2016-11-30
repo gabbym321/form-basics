@@ -12,13 +12,38 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Survey</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
-
-            Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            
+            <dv class = "wrapper">
+            Favorite ice cream flavor:
+            <input type="text" name="icecream" placeholder= icecream required> <br>
+            </dv>
+            
+            <dv class = "wrapper">
+            Dream pet: <br>
+            <input type="radio" name="pet" value="dog"> dog <br>
+            <input type="radio" name="pet" value="cat"> cat <br>
+            <input type="radio" name="pet" value="bunny"> bunny <br>
+            <input type="radio" name="pet" value="mouse" required> mouse <br>
+            
+            </dv>
+            <dv class = "wrapper">
+                Places you have traveled to: <br>
+            <select name= "travel">
+                <option value ="Europe" selected> Europe </option>
+                <option value ="Americas">  The Americas </option>
+                <option value ="Africa">  Africa </option>
+                <option value ="Asia"> Asia </option>
+                <option value ="Other"> Other </option> 
+                
+                
+            </select>
+            </dv>
+            
+            
+            
 
             <!--add your own inputs below-->
 
